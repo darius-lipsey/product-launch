@@ -1,7 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;           
+}
+body (
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column; <-- this will stack items on top of each other when designing in flex*/
+)
 h1 {
     color:yellow
 }
 
 body {
     background-color: maroon;
+}
+p {
+    color: ;
+}
+.cage-p-tag{
+    background-color: white;
+    width: 750px;
+}
+
+img{
+    padding: 25px;
+    display: inline-block;
+}
+.my-grid {
+    border: solid 4px
+    grid-template-columns:
+}
+.my-grid div{
+    border: solid; 10px               
 }
