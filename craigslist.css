@@ -1,16 +1,83 @@
 * {
     box-sizing: border-box;
+    align-items: flex-start;
+    text-align: center;
+    margin: 0em;
 }
-
 
 body, html {
     height: 100%;
     width: 100%;
-    margin: 0px;           
 }
 
-body {
-    margin: 0;
+.body {
+    display: grid;
+    grid-template-columns: 250px 1fr 100px;
+    /* grid-column-gap: 2%; */
+    column-gap: 3%; 
+}
+
+.body ul {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+
+}
+.far-left {
+    background-color: rgba(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.the-middle {
+    display: grid;
+    grid-template-rows: 130h 1fr;
+    row-gap: 4%;
+
+}
+
+.top-middle {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: rgba(224, 224, 224);
+    color: rgb(80, 80, 80)
 }
+
+.bottom-middle {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 5%;
+}
+
+.bottom-middle li {
+    text-align: left;
+    text-decoration-line: underline;
+    color: blue;
+}
+
+.mid-left-box {
+
+}
+
+.forum {
+    font-size: 14px;
+}
+#linkBox {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    row-gap: 1px;
+}
+#headerLink {
+    background-color: rgba(224, 224, 224);
+    color: blue;
+    border-top: solid 1px rgb(80, 80, 80);
+    border-bottom: solid 1px rgb(80, 80, 80);
+}
+

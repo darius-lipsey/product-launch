@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 * {
     box-sizing: border-box;
+    --isabelline: #f4f3eeff;
+    --safety-orange-blaze-orange: #f36b16ff;
+    --auburn: #9e2a2bff;
+    --rich-black-fogra-29: #0e1116ff;
+    --independence: #374a67ff;
 }
 
 
@@ -12,14 +18,13 @@ body (
     display: flex;
     justify-content: center;
     align-items: center;
-    /*flex-direction: column; <-- this will stack items on top of each other when designing in flex*/
+    
 )
 h1 {
-    color:yellow
 }
 
 body {
-    background-color: maroon;
+    background-color: var(--isabelline);
 }
 p {
     color: ;
@@ -34,9 +39,10 @@ img{
     display: inline-block;
 }
 .my-grid {
-    border: solid 4px
-    grid-template-columns:
+    display: grid;
+    grid-template-rows: 8vh 1fr;
+    row-gap: 3%;
 }
 .my-grid div{
-    border: solid; 10px               
+                
 }
